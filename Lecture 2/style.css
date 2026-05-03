@@ -1,0 +1,38 @@
+
+
+body{
+    text-align: center;
+}
+.box{
+    width: 850px;
+    height:600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1{
+    color: rgb(21, 9, 38);
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+h3{
+    color: rgb(1, 45, 26);
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 20px;
+    letter-spacing: 2px;
+}
+
+h2{
+    color: rgb(32, 28, 38);
+    font-size: 24px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 18px;
+}
