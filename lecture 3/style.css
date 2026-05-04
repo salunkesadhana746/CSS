@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Caveat:wght@400..700&family=Emilys+Candy&family=Leckerli+One&family=Life+Savers:wght@400;700;800&display=swap');
+
+.para{
+    font-size: 28px;
+    font-family: "Life Savers", serif;
+}
+
+
+.para2{
+    font-family: "Caveat", cursive;
+    font-size: 25px;  
+}
+
+.para3{
+    font-family: "Emilys Candy", serif;
+    font-size: 25px;
+}
+#top{
+    color: rgb(19, 19, 37);
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+div{
+    font-size: 38px;
+    width: 36px;
+    height: 36px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+}
+#places{
+    padding: 5px;
+}
+
