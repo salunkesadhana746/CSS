@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Caveat:wght@400..700&family=Emilys+Candy&family=Leckerli+One&family=Life+Savers:wght@400;700;800&display=swap');
 
 .para{
-    font-size: 28px;
+    font-size: 25px;
     font-family: "Life Savers", serif;
 }
 
@@ -20,19 +20,18 @@
     font-size: 30px;
     text-transform: capitalize;
     text-align: center;
-
+    
 }
 div{
-    font-size: 38px;
-    width: 36px;
-    height: 36px;
+    
+    text-align: right;
+    font-size: 40px; 
     margin: 5px;
     padding: 5px;
 }
 
-
-
-#places{
-    padding: 5px;
+#first{
+    text-align: center;
+    
 }
 
