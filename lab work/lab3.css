@@ -36,13 +36,15 @@ body{
     background-color: rgb(203, 202, 202);
     margin: 10px;
     padding: 10px;
+    border: 3px solid blue;
 }
 .second{
     text-align: center;
     padding: 39px;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: capitalize;
     padding: 8px;
+    font-weight: 600;
     
 }
 
@@ -65,4 +67,18 @@ body{
 b{
     font-size: 18px;
 
+}
+
+.div-1 {
+    width: 300px;
+    height: 320px;
+    background-color: rgb(231, 230, 230);
+    padding: 10px;
+}
+
+.div-2 {
+    width: 250px;
+    height: 250px;
+    background-color: aliceblue;
+    margin: 20px 10px;
 }
