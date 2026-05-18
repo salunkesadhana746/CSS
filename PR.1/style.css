@@ -207,7 +207,7 @@ i {
 }
 
 .top-articles img {
-    width: 200px;
+    width: 180px;
     height: 150px;
     border-radius: 10px;
 }
@@ -221,6 +221,7 @@ i {
 
 #color {
     color: #1a6ccc;
+    
 }
 
 section {
