@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
 }
 body{
     height: 100vh;
@@ -10,73 +9,153 @@ body{
     background-color: #EDF2F7;
 }
 
-.header{
+nav{
+    padding: 0px 20px;
     width: 100%;
-    color: white;
+    height: 60px;
+    background-color: #1a6ccc;
     display: flex;
-    padding: 10px;
     justify-content: space-between;
+    color: white;
     align-items: center;
-    background-color: #1A6CCC;
+    margin-bottom: 20px;
 }
+.nav-menu-profile-image{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
 
-.logo{
-    font-size: 25px;
-    font-weight: bold;
 }
-
-.nav-name-right{
+.nav-menus{
     display: flex;
     align-items: center;
 }
 
-.nav-name a{
+.nav-menu-name,.nav-menu-username{
+    margin: 0px 10px;
     color: white;
     text-decoration: none;
+}
+
+.nav-menu-username{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+main{
     display: flex;
-    margin-right: 20px;
-    justify-content: space-around;
-    font-size: 16px;
+    justify-content: center;
 }
-
-.name-you{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.image{
-    width: 35px;
-    border-radius: 50%;
-    margin-left: 20px;
-}
-.content{
+.container {
+    width: 70%;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    width: 80%;
-   margin-left: 20px;
 }
 
-.con-right{
+.left-menu-box {
     width: 20%;
     background-color: white;
-    color: black;
-    padding: 20px;
     border-radius: 10px;
-    border: 2px solid gray;
-    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-detail-box {
+    width: 70%;
+    background-color: white;
 }
 
-.list li{
-    padding: 10px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    list-style: none;
+.left-menu-box-item{
+    margin: 15px 10px;
 }
-.color{
-    width: 100%px;
-    border-radius: 0px 40px 40px 0px;
-    background-color: #53a0f9;
-    margin-right: 30px;
+
+.left-menu-icon{
+    font-size: 20px;
+    color: #1a6ccc;
+}
+
+.left-menu-name{
+    font: 22px;
+    color: #1a6ccc;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.left-menu-box-bottom-text {
+    color: rgb(167, 162, 162);
+    font-size: 12px;
+}
+
+.top-sellers-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;  
+}
+.top-seller-row-title-box i{
+    color: goldenrod;
+}
+.top-seller-row-title-box span{
+   color: blue;
+}
+.top-seller-row-filter-box span,i{
+    color: gray;
+    font-weight:normal;
+    font-size: 14px;
+}
+
+.right-all-seller-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.right-seller-detail-box{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.right-seller-detail-box img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+.right-seller-detail-box div h3{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    font-weight: normal;
+}
+.right-seller-detail-box div p{
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    font-weight: normal;
+}
+
+.right-seller-detail-box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-articles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.top-articles img {
+    width: 150px;
+    height: 150px;
+}
+.top-articles div p{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: row;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    font-weight: normal;
 }
