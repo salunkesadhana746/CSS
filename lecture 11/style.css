@@ -45,6 +45,10 @@ body {
     justify-content: space-between;
 }
 
+.d-grid {
+    display: grid;
+}
+
 .background-laghtblue {
     background-color: lightblue;
 }
