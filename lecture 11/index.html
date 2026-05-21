@@ -7,61 +7,69 @@
     <title>lecture 10</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <main>
-        <section class="left-section">
-            <div>
+    <main class="d-flex">
+        <section class="left-section bg-white">
+            <div class="logo-name-box itmem-center justify-center d-flex">
                 <i class="ri-hotel-line"></i>
-                <h3>HRM Portal</h3>
+                <h2>HRM Portal</h2>
             </div>
-            <div>
-                <div>
-                    <i class="ri-dashboard-line"> Dashboard</i>
+            <div class="left-menu-box">
+                <div class="first-box text-center">
+                    <i class="ri-dashboard-line"></i>
+                    <span>Dashboard</span>
+                </div>
+                <div>   
+                    <i class="ri-time-line"></i>
+                    <span>Attendance</span>
                 </div>
                 <div>
-                    <i class="ri-time-line"> Attendance</i>
+                    <i class="ri-calendar-line"></i>
+                    <span>Leave</span>
                 </div>
                 <div>
-                    <i class="ri-calendar-line"> Leave
-                        <select>
-                            <option></option>
-                            <option>Apply leave</option>
-                            <option>My leave</option>
-                            <option>Leave Policy</option>
-                        </select>
-                    </i>
+                    <i class="ri-file-chart-line"></i>
+                    <span>Pay Slip</span>
                 </div>
                 <div>
-                    <i class="ri-file-chart-line"> Pay Slip</i>
+                    <i class="ri-file-line"></i>
+                    <span>Documents</span>
                 </div>
                 <div>
-                    <i class="ri-file-line"> Documents</i>
-                </div>
-                <div>
-                    <i class="ri-user-line"> Profile</i>
+                    <i class="ri-user-line"></i>
+                    <span>Profile</span>
                 </div>
             </div>
             <hr>
-            <div>
+            <div class="left-menu-box-">
                 <div>
-                    <i class="ri-settings-line"> Settings</i>
+                    <i class="ri-settings-line"></i>
+                    <span>Settings</span>
                 </div>
                 <div>
-                    <i class="ri-logout-box-r-line"> Logout</i>
+                    <i class="ri-logout-box-r-line"></i>
+                    <span>Logout</span>
                 </div>
             </div>
         </section>
         <section class="right-section">
-            <nav>
+            <nav class="nav-bar bg-white d-flef">
                 <div class="search-bar">
                     <i class="ri-search-line"></i>
                     <input type="text" placeholder="Search People,leave, policies">
                 </div>
                 <div class="profile-bar">
                     <i class="ri-notification-3-line"></i>
-                    <img src="" alt="">
+                    <img src="https://i.pinimg.com/736x/45/9b/3f/459b3f203b55e26088e6ec747e15ea07.jpg" alt="">
                     <div>
                         <span>Zubear Rahman</span>
                         <span>UI/UX Designer</span>
@@ -108,7 +116,7 @@
                                 <span>Available</span>
                                 <span>When needed</span>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <button>Apply Leave</button>
                 </div>
@@ -117,22 +125,22 @@
                     <div>
                         <i class="ri-time-line"></i>
                         <div>
-                            <span>Status</span>
-                            <span>Working from Office</span>
+                            <p>Status</p>
+                            <p>Working from Office</p>
                         </div>
                     </div>
                     <div>
                         <i class="ri-time-line"></i>
                         <div>
-                            <span>Working Hours</span>
-                            <span>9:00 am - 6:00 pm</span>
+                            <p>Working Hours</p>
+                            <p>9:00 am - 6:00 pm</p>
                         </div>
                     </div>
                     <div>
                         <i class="ri-time-line"></i>
                         <div>
-                            <span>Entry Time</span>
-                            <span>9:00 am</span>
+                            <p>Entry Time</p>
+                            <p>9:00 am</p>
                         </div>
                     </div>
                 </div>
@@ -143,22 +151,22 @@
                     <div>
                         <i class="ri-calendar-line"></i>
                         <div>
-                            <h4>Apply Leave</h4>
-                            <span>Request time off</span>
+                            <p>Apply Leave</p>
+                            <p>Request time off</p>
                         </div>
                     </div>
                     <div>
                         <i class="ri-file-chart-line"></i>
                         <div>
-                            <h4>My Leave History</h4>
+                            <p>My Leave History</p>
                             <p>View all request</p>
                         </div>
                     </div>
                     <div class="background-laghtyellow">
                         <i class="ri-file-chart-line"></i>
                         <div>
-                            <h4>Apply Leave</h4>
-                            <span>Request time off</span>
+                            <p>Apply Leave</p>
+                            <p>Request time off</p>
                         </div>
                     </div>
                 </div>
