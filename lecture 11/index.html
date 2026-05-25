@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lecture 10</title>
+    <title>HRM Portal</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 
@@ -73,7 +73,8 @@
             <nav class="nav-bar bg-white d-flex justify-between">
                 <div class="search-bar justify-content itmem-center d-flex">
                     <i class="ri-search-line"></i>
-                    <input type="text" placeholder="Search People,leave,policies ">
+                    <in
+                    put type="text" placeholder="Search People,leave,policies "/>
                 </div>
                 <div class="profile-bar d-flex itmem-center justify-center">
                     <i class="ri-notification-3-line"></i>
@@ -91,26 +92,29 @@
             </div>
             <div class="grid-box d-flex">
                 <div class="grid-box-leave">
-                    <h3 class="grid-box-summary"> Leave Summary</h3>
+                    <h2 class="grid-box-summary"> Leave Summary</h2>
                     <div class="leave-box">
                         <div class="leave-box-summary">
 
                             <div class="leave-box-summary-1 d-flex justify-between itmem-center background-laghtblue">
-                                <i class="ri-database-line background-blue font-bold font-size"></i>
-                                <span class="text-gray">Annual leave
-                                    <p class="text-bold">12/18</p>Days remaining
-                                </span>
-
+                                <div class="d-flex itmem-center">
+                                    <i class="ri-database-line blue font-bold font-size"></i>
+                                    <span class="text-gray">Annual leave
+                                        <p class="text-bold">12/18</p>Days remaining
+                                    </span>
+                                </div>
                                 <div>
                                     <i class="ri-more-2-line font-bold font-size"></i>
                                 </div>
                             </div>
 
                             <div class="leave-box-summary-2 d-flex justify-between itmem-center background-laghtyellow">
-                                <i class="ri-database-line yellow font-bold font-size"></i>
+                                <div class="d-flex itmem-center">
+                                    <i class="ri-database-line yellow font-bold font-size"></i>
                                 <span class="text-gray">Sick leave
                                     <p class="text-bold">6/10</p>Days remaining
                                 </span>
+                                </div>
 
                                 <div>
                                     <i class="ri-more-2-line font-bold font-size"></i>
@@ -118,21 +122,25 @@
                             </div>
 
                             <div class="leave-box-summary-3 d-flex justify-between itmem-center background-laghtgreen">
-                                <i class="ri-database-line green font-bold font-size d-flex"></i>
-                                <span class="text-gray ">Causal leave
-                                    <p class="text-bold">2/5</p>Days remaining
-                                </span>
+                                <div class="d-flex itmem-center">
+                                    <i class="ri-database-line green font-bold font-size"></i>
+                                    <span class="text-gray ">Causal leave
+                                        <p class="text-bold">2/5</p>Days remaining
+                                    </span>
+                                </div>
 
                                 <div>
-                                    <i class="ri-more-2-line font-bold font-size d-flex"></i>
+                                    <i class="ri-more-2-line font-bold font-size"></i>
                                 </div>
                             </div>
 
                             <div class="leave-box-summary-4 d-flex justify-between itmem-center background-laghtred">
-                                <i class="ri-database-line red font-bold font-size d-flex"></i>
-                                <span class="text-gray">Unpaid leave
-                                    <p class="text-bold">Available</p>when needed
-                                </span>
+                                <div class="d-flex itmem-center">
+                                    <i class="ri-database-line red font-bold font-size"></i>
+                                    <span class="text-gray">Unpaid leave
+                                        <p class="text-bold">Available</p>when needed
+                                    </span>
+                                </div>
 
                                 <div>
                                     <i class="ri-more-2-line font-bold font-size d-flex"></i>
@@ -148,52 +156,54 @@
                 </div>
                 <div class="today-status">
                     <h2>Today Status</h2>
-                    <div class="today-box d-flex">
-                        <div class="today-box-time d-flex">
-                            <i class="ri-time-line"></i>
+                    <div class="today-box d-flex flex-column">
+                        <div class="today-box-time d-flex itmem-center">
+                            <i class="ri-time-line  green"></i>
                             <div>
                                 <p>Status</p>
-                                <p>Working from Office</p>
+                                <p class="font-bold">Working from Office</p>
                             </div>
                         </div>
-                        <div class="today-box-time d-flex>
-                            <i class="ri-time-line"></i>
+                        <hr>
+                        <div class="today-box-time d-flex itmem-center">
+                            <i class="ri-time-line blue"></i>
                             <div>
                                 <p>Working Hours</p>
-                                <p>9:00 am - 6:00 pm</p>
+                                <p class="font-bold">9:00 am - 6:00 pm</p>
                             </div>
                         </div>
-                        <div  class="today-box-time d-flex">
-                            <i class="ri-time-line"></i>
+                        <hr>
+                        <div class="today-box-time d-flex itmem-center ">
+                            <i class="ri-time-line yellow"></i>
                             <div>
                                 <p>Entry Time</p>
-                                <p>9:00 am</p>
+                                <p class="font-bold">9:00 am</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="action-box">
+            <div class="quick-action">
                 <h2>Quick Action</h2>
-                <div class="action-column">
-                    <div>
-                        <i class="ri-calendar-line"></i>
+                <div class="action-column d-flex">
+                    <div class="action-box background-laghtblue d-flex itmem-center">
+                        <i class="ri-calendar-line blue"></i>
                         <div>
-                            <p>Apply Leave</p>
+                            <h5>Apply Leave</h5>
                             <p>Request time off</p>
                         </div>
                     </div>
-                    <div>
-                        <i class="ri-file-chart-line"></i>
+                    <div class="action-box background-laghtgreen d-flex itmem-center">
+                        <i class="ri-file-chart-line green"></i>
                         <div>
-                            <p>My Leave History</p>
+                            <h5>My Leave History</h5>
                             <p>View all request</p>
                         </div>
                     </div>
-                    <div class="background-laghtyellow">
-                        <i class="ri-file-chart-line"></i>
+                    <div class="action-box background-laghtyellow d-flex itmem-center">
+                        <i class="ri-file-chart-line yellow"></i>
                         <div>
-                            <p>Apply Leave</p>
+                            <h5>Apply Leave</h5>
                             <p>Request time off</p>
                         </div>
                     </div>
