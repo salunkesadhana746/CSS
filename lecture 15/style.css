@@ -20,16 +20,13 @@ body {
 }
 
 .flex-nowrap {
-    display: flex;
     flex-wrap: nowrap;
 }
 
 .flex-wrap {
-    display: flex;
     flex-wrap: wrap;
 }
 .flex-reverse {
-    display: flex;
     flex-wrap: wrap-reverse;
 }
 .flex-row {
@@ -45,9 +42,29 @@ body {
     flex-direction: column-reverse;
 }
 
+.Flex-flow-row {
+    flex-flow:row wrap ;
+}
+
+.Flex-flow-row-reverse {
+    flex-flow:row-reverse wrap ;
+}
+.flex-row-nowrap{
+    flex-flow: row nowrap;
+}
+.Flex-flow-column {
+    flex-flow: column wrap ;
+}
+.Flex-flow-column-reverse {
+    flex-flow: column-reverse wrap ;
+}
+.flex-column-nowrap{
+    flex-flow: column nowrap;
+}
 .background-black {
     background-color: #605F64;
-}
+}   
+
 
 .container {
     color: white;

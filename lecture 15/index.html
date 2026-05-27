@@ -39,7 +39,7 @@
             <h2>Dispaly:flex- 1.nonwrap</h2>
             <p>This is the default value. All flex items will be on a single line, even if they exceed the container's
                 width, potentially causing overflow.</p>
-            <div class="box flex-nowrap">
+            <div class="box d-flex flex-nowrap">    
                 <div class="itmem">1</div>
                 <div class="itmem">2</div>
                 <div class="itmem">3</div>
@@ -61,7 +61,7 @@
             <h2>Dispaly:flex- 2.wrap</h2>
             <p>Allows flex items to wrap onto multiple lines if there isn't enough space in the primary axis (horizontal
                 by default). New lines are stacked in the normal direction (top to bottom in a horizontal flow).</p>
-            <div class="box flex-wrap">
+            <div class="box d-flex flex-wrap">
                 <div class="itmem">1</div>
                 <div class="itmem">2</div>
                 <div class="itmem">3</div>
@@ -85,7 +85,7 @@
             <h2>Dispaly:flex- 3.wrap-reverse</h2>
             <p>Behaves similarly to wrap, but the lines are stacked in the reverse direction (bottom to top in a
                 horizontalflow).</p>
-            <div class="box flex-reverse">
+            <div class="box d-flex flex-reverse">
                 <div class="itmem">1</div>
                 <div class="itmem">2</div>
                 <div class="itmem">3</div>
@@ -119,10 +119,9 @@
         </div>
     </div>
     <div class="container background-black">
-        <h2>Dispaly:flex- 3.wrap-reverse</h2>
-        <p>Behaves similarly to wrap, but the lines are stacked in the reverse direction (bottom to top in a horizontal
-            flow).</p>
-        <div class="box flex-row">
+        <h2>Dispaly:flex- direction : 1.Row</h2>
+        <p>The flex container's main-axis is defined to be the same as the text direction. The main-start and main-end points are the same as the content direction.</p>
+        <div class="box d-flex flex-row">
             <div class="itmem">1</div>
             <div class="itmem">2</div>
             <div class="itmem">3</div>
@@ -136,8 +135,216 @@
             <div class="itmem">11</div>
             <div class="itmem">12</div>
             <div class="itmem">13</div>
-            <div class="itmem">14</div>
-            <div class="itmem">15</div>
+        </div>
+    </div>
+    <div class="container background-black">
+        <h2>Dispaly:flex- direction : 2.Row-reverse</h2>
+        <p>Behaves the same as row but the main-start and main-end points are opposite to the content direction.</p>
+        <div class="box d-flex flex-row-reverse">
+            <div class="itmem">1</div>
+            <div class="itmem">2</div>
+            <div class="itmem">3</div>
+            <div class="itmem">4</div>
+            <div class="itmem">5</div>
+            <div class="itmem">6</div>
+            <div class="itmem">7</div>
+            <div class="itmem">8</div>
+            <div class="itmem">9</div>
+            <div class="itmem">10</div>
+            <div class="itmem">11</div>
+            <div class="itmem">12</div>
+            <div class="itmem">13</div>
+        </div>
+    </div>
+    <div class="container background-black">
+        <h2>Dispaly:flex- direction : 3.column</h2>
+        <p>The flex container's main-axis is the same as the block-axis. The main-start and main-end points are the same as the before and after points of the writing-mode.</p>
+        <div class="box d-flex flex-column flex-wrap">
+            <div class="itmem">1</div>
+            <div class="itmem">2</div>
+            <div class="itmem">3</div>
+            <div class="itmem">4</div>
+            <div class="itmem">5</div>
+            <div class="itmem">6</div>
+            <div class="itmem">7</div>
+            <div class="itmem">8</div>
+            <div class="itmem">9</div>
+            <div class="itmem">10</div>
+            <div class="itmem">11</div>
+            <div class="itmem">12</div>
+            <div class="itmem">13</div>
+        </div>
+    </div>
+    <div class="container background-black">
+        <h2>Dispaly:flex- direction : 4.column-reverse</h2>
+        <p>Behaves the same as column but the main-start and main-end are opposite to the content direction.</p>
+        <div class="box d-flex flex-column-reverse flex-wrap">
+            <div class="itmem">1</div>
+            <div class="itmem">2</div>
+            <div class="itmem">3</div>
+            <div class="itmem">4</div>
+            <div class="itmem">5</div>
+            <div class="itmem">6</div>
+            <div class="itmem">7</div>
+            <div class="itmem">8</div>
+            <div class="itmem">9</div>
+            <div class="itmem">10</div>
+            <div class="itmem">11</div>
+            <div class="itmem">12</div>
+            <div class="itmem">13</div>
+        </div>
+    </div>
+     <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex- flow</h2>
+            <p>
+                The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties<br>
+                The flex-flow property can have one of the following values:<br>
+                1.row-wrap<br>
+                2.row-wrap-reverce<br>
+                3.row-nowrap<br>
+                4.column-wrap<br>
+                5.column-wrap-reverse<br>
+                6.column-nowrap
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex-flow-row wrap</h2>
+            <p>The CSS property flex-flow: row wrap; is a shorthand for setting both the flex-direction and flex-wrap properties on a flex container.</p>
+            <div class="box d-flex Flex-flow-row ">
+                <div class="itmem">1</div>
+                <div class="itmem">2</div>
+                <div class="itmem">3</div>
+                <div class="itmem">4</div>
+                <div class="itmem">5</div>
+                <div class="itmem">6</div>
+                <div class="itmem">7</div>
+                <div class="itmem">8</div>
+                <div class="itmem">9</div>
+                <div class="itmem">10</div>
+                <div class="itmem">11</div>
+                <div class="itmem">12</div>
+                <div class="itmem">13</div>
+                <div class="itmem">14</div>
+                <div class="itmem">15</div>
+            </div>
+        </div>
+    </div>
+     <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex-flow-row wrap-reverse</h2>
+            <p>flex-flow: row wrap-reverse; is used to arrange flex container items horizontally (left to right), and when they overflow, the extra items wrap to a new line above the current line instead of below.</p>
+            <div class="box d-flex Flex-flow-row-reverse">
+                <div class="itmem">1</div>
+                <div class="itmem">2</div>
+                <div class="itmem">3</div>
+                <div class="itmem">4</div>
+                <div class="itmem">5</div>
+                <div class="itmem">6</div>
+                <div class="itmem">7</div>
+                <div class="itmem">8</div>
+                <div class="itmem">9</div>
+                <div class="itmem">10</div>
+                <div class="itmem">11</div>
+                <div class="itmem">12</div>
+                <div class="itmem">13</div>
+                <div class="itmem">14</div>
+                <div class="itmem">15</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex-flow:row nowrap</h2>
+            <p>flex-flow: row nowrap; arranges flex container items horizontally from left to right in a single line, and prevents them from wrapping to the next line, even if there is not enough space.</p>
+            <div class="box d-flex flex-row-nowrap">
+                <div class="itmem">1</div>
+                <div class="itmem">2</div>
+                <div class="itmem">3</div>
+                <div class="itmem">4</div>
+                <div class="itmem">5</div>
+                <div class="itmem">6</div>
+                <div class="itmem">7</div>
+                <div class="itmem">8</div>
+                <div class="itmem">9</div>
+                <div class="itmem">10</div>
+                <div class="itmem">11</div>
+                <div class="itmem">12</div>
+                <div class="itmem">13</div>
+                <div class="itmem">14</div>
+                <div class="itmem">15</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex-flow:column wrap</h2>
+            <p>flex-flow: column wrap; arranges flex items vertically from top to bottom and allows them to wrap into additional columns horizontally if there is not enough vertical space.</p>
+            <div class="box d-flex Flex-flow-column">
+                <div class="itmem">1</div>
+                <div class="itmem">2</div>
+                <div class="itmem">3</div>
+                <div class="itmem">4</div>
+                <div class="itmem">5</div>
+                <div class="itmem">6</div>
+                <div class="itmem">7</div>
+                <div class="itmem">8</div>
+                <div class="itmem">9</div>
+                <div class="itmem">10</div>
+                <div class="itmem">11</div>
+                <div class="itmem">12</div>
+                <div class="itmem">13</div>
+                <div class="itmem">14</div>
+                <div class="itmem">15</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex-flow:column wrap-reverse</h2>
+            <p>flex-flow: column wrap-reverse; arranges flex items vertically from top to bottom, and if they overflow, the extra items wrap into new columns to the left of the original column instead of to the right.</p>
+            <div class="box d-flex Flex-flow-column-reverse">
+                <div class="itmem">1</div>
+                <div class="itmem">2</div>
+                <div class="itmem">3</div>
+                <div class="itmem">4</div>
+                <div class="itmem">5</div>
+                <div class="itmem">6</div>
+                <div class="itmem">7</div>
+                <div class="itmem">8</div>
+                <div class="itmem">9</div>
+                <div class="itmem">10</div>
+                <div class="itmem">11</div>
+                <div class="itmem">12</div>
+                <div class="itmem">13</div>
+                <div class="itmem">14</div>
+                <div class="itmem">15</div>
+            </div>
+        </div>
+    </div>
+     <div>
+        <div class="container background-black">
+            <h2>Display : Flex, Flex-flow:column nowrap</h2>
+            <p>flex-flow: column nowrap; arranges flex items vertically from top to bottom in a single column, and prevents them from wrapping into additional columns, even if they overflow the container.</p>
+            <div class="box d-flex flex-column-nowrap">
+                <div class="itmem">1</div>
+                <div class="itmem">2</div>
+                <div class="itmem">3</div>
+                <div class="itmem">4</div>
+                <div class="itmem">5</div>
+                <div class="itmem">6</div>
+                <div class="itmem">7</div>
+                <div class="itmem">8</div>
+                <div class="itmem">9</div>
+                <div class="itmem">10</div>
+                <div class="itmem">11</div>
+                <div class="itmem">12</div>
+                <div class="itmem">13</div>
+                <div class="itmem">14</div>
+                <div class="itmem">15</div>
+            </div>
         </div>
     </div>
 </body>
