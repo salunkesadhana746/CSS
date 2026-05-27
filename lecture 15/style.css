@@ -12,9 +12,11 @@ body {
 .d-flex {
     display: flex;
 }
+
 .justify-center {
     justify-content: center;
 }
+
 .itmem-center {
     align-items: center;
 }
@@ -26,64 +28,78 @@ body {
 .flex-wrap {
     flex-wrap: wrap;
 }
+
 .flex-reverse {
     flex-wrap: wrap-reverse;
 }
+
 .flex-row {
     flex-direction: row;
 }
+
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
+
 .flex-column {
     flex-direction: column;
 }
+
 .flex-column-reverse {
     flex-direction: column-reverse;
 }
 
 .Flex-flow-row {
-    flex-flow:row wrap ;
+    flex-flow: row wrap;
 }
 
 .Flex-flow-row-reverse {
-    flex-flow:row-reverse wrap ;
+    flex-flow: row-reverse wrap;
 }
-.flex-row-nowrap{
+
+.flex-row-nowrap {
     flex-flow: row nowrap;
 }
+
 .Flex-flow-column {
-    flex-flow: column wrap ;
+    flex-flow: column wrap;
 }
+
 .Flex-flow-column-reverse {
-    flex-flow: column-reverse wrap ;
+    flex-flow: column-reverse wrap;
 }
-.flex-column-nowrap{
+
+.flex-column-nowrap {
     flex-flow: column nowrap;
 }
+
 .background-black {
     background-color: #605F64;
-}   
+}
 
 
 .container {
     color: white;
 }
+
 h2 {
     display: flex;
     justify-content: center;
     margin: 15px;
 }
-p{
+
+p {
     margin: 20px;
     font-size: 20px;
 }
-.box{
+
+.box {
     background-color: #9d9d06;
     margin: 10px;
     height: 250px;
-    
+
 }
+
 .itmem {
     font-size: 20px;
     background-color: bisque;
