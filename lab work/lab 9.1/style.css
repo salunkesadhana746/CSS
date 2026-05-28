@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.main {
+    border: 4px solid black;
+    width: 98%;
+    margin: 10px;
+    background: white;
+}
+
+.nav {
+    height: 450px;
+    background-image: url(https://i.pinimg.com/1200x/4d/5e/f9/4d5ef94f9a038da39c34db143e5b98e0.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav h3 {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+.linear {
+    height: 250px;
+    background: linear-gradient(to left, #FF6363, #FF9466);
+    position: relative;
+}
+
+.radial {
+    height: 250px;
+    background: radial-gradient(circle, #254887, #284E91);
+    position: relative;
+}
+
+.conic {
+    height: 250px;
+    background: conic-gradient(orange,
+            deeppink,
+            purple,
+            orange,
+            orangered);
+    position: relative;
+}
+
+.text-block {
+    padding: 30px;
+    border: 2px solid #FFFF3E;
+    display: flex;
+    align-items: center;
+}
+
+.text-block p,
+.box p {
+    color: black;
+    font-size: 18px;
+}
+
+.box {
+    height: 170px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
