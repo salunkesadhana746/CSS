@@ -8,7 +8,14 @@ body{
     height: 100vh;
     width: 100%;
 }
+.box-1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .section-1{
+    display: flex;
+    align-items: center;
     margin: 10px;
     height: 350px;
     width: 300px;
@@ -23,7 +30,12 @@ body{
     padding: 12px;
 }
 #img {
-    margin: 5px;
+    margin: 6px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
 }
 
 .first{
@@ -48,10 +60,18 @@ body{
     height: 180px;
     width: 180px;
     background-color: white;
-    margin: 30px 10px;
+    margin: 30px 5px;
     border-radius: 10px;
     text-align: center;
     font-size: 12px;
+}
+
+.third p {
+    font-size: 14px;
+}
+
+.third i{
+    color: green;
 }
 
 .img-1{
@@ -62,7 +82,6 @@ body{
 }
 b{
     font-size: 18px;
-
 }
 
 .div-1 {
@@ -75,20 +94,39 @@ b{
 .div-2 {
     width: 250px;
     height: 250px;
-    background-color: aliceblue;
+    background-color: rgb(249, 250, 251);
     margin: 20px 10px;
 
 }
+.div-1 p {
+    color: #626262;
+}
+.krish {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 5px;
+}
+.krish span {
+    color: #5baff4;
+}
 
 img {
-   margin-left: 50px;
+   margin-left: 40px;
+   margin-top: 10px;
 }
 button{
     height: 30px;
     width: 200px;
-    margin: 10px 20px;
+    margin: 5px 20px;
     background-color: #198FFA;
     color: white;
     font-size: 20px;
     border: none;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    color: #626262;
 }
