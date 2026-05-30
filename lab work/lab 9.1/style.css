@@ -74,10 +74,12 @@ p {
 }
 
 .box {
-    height: 170px;
+    height: 200px;
     color: black;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
