@@ -1,6 +1,6 @@
-*{
+* {
     margin: 10px;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -12,11 +12,46 @@ body {
 .main {
     background-color: #F9F9F9;
     width: 98%;
+    padding: 10px;
 }
 
-.introduction {
+p {
+    font-weight: 200;
+    font-size: 18px;
+    color: #504f4f;
+}
+
+
+
+.main div {
     width: 98%;
     background-color: #F2F2F2;
     border: 2px solid #D4D4D4;
     border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back-yellow {
+    border-left: 5px solid #FF6347;
+    background-color: #FFFBCC;
+    padding: 3px 12px;
+}
+
+h1::first-letter {
+    font-size: 60px;
+    color: #FF6347;
+}
+
+h4 {
+    background-color: #C5E1A5;
+    border: 8px solid #E0F7FA;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 10px;
 }
