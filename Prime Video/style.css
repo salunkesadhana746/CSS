@@ -1,3 +1,23 @@
+@font-face {
+    font-family: amazon-embar;
+    src: url(amazon.ttf);
+}
+
+@font-face {
+    font-family: amazon-italic;
+    src: url(amazon-italic.ttf);
+}
+
+@font-face {
+    font-family: amazon-bold;
+    src: url(amazon-bold.ttf);
+}
+
+@font-face {
+    font-family: amazon-bold-italic;
+    src: url(amazon-bold-italic.ttf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,23 +25,30 @@
 }
 
 body {
+    font-family: amazon-embar;
     height: 100vh;
     width: 100%;
+    background-color: #090909;
+    color: white;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .nav-bar {
+    position: fixed;
     width: 90%;
     height: 60px;
-    background-color: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
 .nav-bar a {
     text-decoration: none;
@@ -31,7 +58,7 @@ nav {
 .nav-bar a:hover {
     background-color: white;
     border-radius: 8px;
-    color: navy;
+    color: black;
 }
 .left-nav {
     display: flex;
@@ -40,6 +67,153 @@ nav {
 
 .left-nav img {
     width: 80px;
-    height: 30px;
+    height: 25px;
     margin-right: 20px;
 }
+
+.ri-function-add-fill {
+    margin-right: 5px;
+}
+
+.right-nav .rounted-100:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.right-nav button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #1A98FF;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.right-nav button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 50px #b4ddff ;
+}
+
+.hero {
+    height: 80%;
+    width: 100%;
+    background-size: contain;
+    background-image: url(https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_TomClancysJackRyanGhostWar_Solo/10ee98ee-a065-4752-83c4-54a10381596d._UR3840,1440_SX2160_FMwebp_.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-box {
+    width: 90%;
+}
+
+.hero-detail {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-prime-logo {
+    height: 60px;
+    width: 60px;
+}
+
+.hero-movie-name {
+    height: 180px;
+    width: 250px;
+    display: block;
+}
+
+.hero-detail p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-detail .hero-rank {
+    color: #37F1A3;
+    font-size: 18px;
+    
+}
+
+.hero-detail .hero-rank .ri-funds-box-line {
+    font-size: 26px;
+}
+
+.hero-button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-join-prime-button {
+    height: 65px;
+    width: 140px;
+    background-color: rgba(130, 130, 130, 0.4);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.hero-add-button, .hero-detail-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(130, 130, 130, 0.4);
+    font-size: 20px;
+    color: white;
+}
+
+.ri-shopping-bag-fill {
+    color: gold;
+    margin-right: 10px;
+}
+
+.hero-watch {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.top-movies {
+    height: 50%;
+    width: 100%;
+}
+
+.top-movies-box {
+    margin: 20px;
+}
+
+.movies-manu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.top-movies-box h2 {
+    padding: 24px;
+}
+
+.front {
+    height: 100px;
+    width: 100px;
+}
+
+.back {
+    position: absolute;
+    left: 75px;
+    height: 150px;
+    width: 250px;
+    box-shadow: 0px 8px 50px #2f2f2f ;
+    border-radius: 8px;   
+}
+
