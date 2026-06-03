@@ -25,7 +25,7 @@
 }
 
 body {
-    font-family: amazon-embar;
+    font-family: 'amazon-embar';
     height: 100vh;
     width: 100%;
     background-color: #090909;
@@ -50,16 +50,19 @@ nav {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
 }
+
 .nav-bar a {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
+
 .nav-bar a:hover {
     background-color: white;
     border-radius: 8px;
     color: black;
 }
+
 .left-nav {
     display: flex;
     align-items: center;
@@ -90,9 +93,10 @@ nav {
     color: white;
     font-weight: 600;
 }
+
 .right-nav button:hover {
     transform: scale(1.05);
-    box-shadow: 0px 8px 50px #b4ddff ;
+    box-shadow: 0px 8px 50px #b4ddff;
 }
 
 .hero {
@@ -138,7 +142,7 @@ nav {
 .hero-detail .hero-rank {
     color: #37F1A3;
     font-size: 18px;
-    
+
 }
 
 .hero-detail .hero-rank .ri-funds-box-line {
@@ -162,7 +166,8 @@ nav {
     margin-right: 10px;
 }
 
-.hero-add-button, .hero-detail-button {
+.hero-add-button,
+.hero-detail-button {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -183,12 +188,12 @@ nav {
 }
 
 .top-movies {
-    height: 50%;
     width: 100%;
+    height: 40%;
 }
 
 .top-movies-box {
-    margin: 20px;
+    margin: 10px;
 }
 
 .movies-manu {
@@ -196,10 +201,17 @@ nav {
     display: flex;
     align-items: center;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
-.top-movies-box h2 {
+.movies-manu-box {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.top-movies-box h1 {
     padding: 24px;
 }
 
@@ -210,10 +222,10 @@ nav {
 
 .back {
     position: absolute;
-    left: 75px;
+    left: 80px;
     height: 150px;
     width: 250px;
-    box-shadow: 0px 8px 50px #2f2f2f ;
-    border-radius: 8px;   
+    box-shadow: 0px 8px 50px #2f2f2f;
+    border-radius: 8px;
+    display: block;
 }
-
