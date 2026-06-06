@@ -67,6 +67,7 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .right-nav {
     display: flex;
     align-content: center;
@@ -96,11 +97,9 @@ nav {
     transition: opacity 0.5s ease, visibility 0.10s ease;
 }
 
-.language-box-button {
-    
-}
+.language-box-button {}
 
-.language-box-button:hover + .language {
+.language-box-button:hover+.language {
     visibility: visible;
 }
 
@@ -265,11 +264,11 @@ nav {
     box-shadow: 0px 8px 50px #2f2f2f;
     border-radius: 8px;
     display: block;
-   
+
 }
 
 .back:hover {
-     transform: scale(1.09);
+    transform: scale(1.09);
 }
 
 .movies-box {
