@@ -1,0 +1,136 @@
+@font-face {
+    font-family: netflix-sans;
+    src: url(assets/fonts/NetflixSans-Rg.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'netflix-sans';
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/435e8bb8-7f1b-49cb-8da8-bff997124294/web/IN-en-20260511-TRIFECTA-perspective_ec39852e-0b48-4e8a-b415-dd8376cd83ce_large.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main hr {}
+
+.background-black {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.background img {
+    height: 60px;
+    width: 150px;
+}
+
+.right-nav select {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.right-nav button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 14px;
+}
+
+.center-itmem {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+
+.center-itmem h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.email-button {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.email-button input {
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 50px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: start;
+}
+
+.email-button button {
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 900;
+    background-color: #E50914;
+    color: white;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    background-color: #f50a1a;
+    color: #D7122D;
+    box-shadow: 20px 20px 100px rgb(242, 234, 234);
+    border: none;
+}
+
+.position {
+    font-size: 100px;
+    border: 2px solid white;
+
+}
+
+.rank-1 {
+    background-image: url(https://occ-0-4875-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABR0HczlJD5keg6_RGeKNKZJZwjElDHeltOb00-4nkBo_9uVn5s_EQRcWKBC_UXV5DeEAD9GzqTNhtPZmbN0KKlQbiBQp5WRjEDA9iOhFuT3CYg7lly1hbtFBeCdYCW2ZbLRq.webp?r=c0a);
+}
