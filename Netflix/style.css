@@ -225,7 +225,6 @@ section {
     justify-content: center;
     flex-direction: column;
     color: white;
-
 }
 
 .frequently-box {
@@ -241,7 +240,7 @@ section {
 }
 
 .frequently-box:hover {
-    background-color:#414141;
+    background-color: #414141;
 }
 
 .join-button {
@@ -278,8 +277,7 @@ section {
 }
 
 .contact {
-   color: #A8B3B3;
-
+    color: #A8B3B3;
 }
 
 .net-contain {
@@ -289,27 +287,26 @@ section {
     width: 100%;
     margin: 24px 0px;
     padding: 10px;
-    
 }
 
 .net-contain-manu {
     width: 100%;
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .net-contain-manu a {
-   color: #A8B3B3;
-   margin: 10px 24px;
+    color: #A8B3B3;
+    margin: 10px 24px;
 }
 
 .net-india {
     color: gray;
     margin: 24px 0px;
 }
+
 .page-detail {
     color: gray;
     font-size: 14px;
     margin-bottom: 50px;
 }
-
