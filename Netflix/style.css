@@ -162,7 +162,9 @@ section {
     margin: 8px;
     padding: 8px;
 }
-
+.movies-rank-1 img:hover {
+    transform: scale(1.09);
+}
 .img-1 {
     border-radius: 10px;
 }
