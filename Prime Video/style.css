@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 999;
 }
 
 .nav-bar {
@@ -115,19 +116,36 @@ nav {
     transition:
         opacity 0.25s ease,
         visibility 0.25s ease;
-        
+
 }
 
-.language-box-button:hover+.language {
+.language.open {
     visibility: visible;
+    opacity: 1;
 }
 
 .language span:hover {
     background-color: white;
     color: black;
     border-radius: 8px;
-    padding: 10px;
-    transform: scale(1.05);
+}
+
+.language span:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.language-box-button {
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.language-box-button:hover~.language {
+    visibility: visible;
+    opacity: 1;
 }
 
 .ri-function-add-fill {
