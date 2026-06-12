@@ -186,7 +186,7 @@ nav {
     gap: 50px;
 }
 
-/* Left Side Images */
+
 .about-us-imgs {
     position: relative;
     width: 50%;
@@ -198,18 +198,30 @@ nav {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     position: absolute;
-    margin-bottom: 10%;
+    margin-left: 10%;
 }
 
 .img1 {
-    top: 0;
+    top: 0px;
     left: 180px;
+    height: 150px;
 }
 
 .img2 {
     top: 100px;
+    right: 550px;
+}
+.img3 {
+    top: 200px;
+    left: 180px;
+    height: 150px;
 }
 
+.img4{
+    top: 0;
+    bottom: 200px;
+    height: 350px;
+}
 .content {
     width: 45%;
 }
